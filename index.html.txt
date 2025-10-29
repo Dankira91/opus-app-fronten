@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opus App GS - Iniciar Sesión</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido a Opus App GS</h1>
+    </header>
+
+    <main class="login-container">
+        <h2>Accede a tu plataforma</h2>
+        
+        <div id="g_id_onload"
+             data-client_id="TU_CLIENT_ID_DE_GOOGLE_CLOUD" 
+             data-context="signin"
+             data-ux_mode="popup"
+             data-callback="handleCredentialResponse" 
+             data-auto_prompt="false">
+        </div>
+
+        <div class="g_id_signin"
+             data-type="standard"
+             data-shape="rectangular"
+             data-theme="outline"
+             data-text="signin_with"
+             data-size="large"
+             data-logo_alignment="left">
+        </div>
+        
+        <p id="error-message" style="color: red;"></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Opus App GS. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
