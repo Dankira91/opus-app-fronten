@@ -1,5 +1,8 @@
-// ⚠️ IMPORTANTE: REEMPLAZA ESTA URL CON LA URL /exec DE TU DESPLIEGUE DE APPS SCRIPT
-const APPS_SCRIPT_API_URL = "https://script.google.com/macros/s/AKfycbwkpR4yJsr0xbB4zTK4wRRSoI3ghtnRvHJdDLBhG_5PcbbzmOQaASfpmqFJnAHBppN-/exec"; 
+// De:
+// const APPS_SCRIPT_API_URL = "LA_URL_REAL_DE_TU_APPS_SCRIPT/exec"; 
+
+// A:
+const APPS_SCRIPT_API_URL = "https://script.google.com/macros/s/AKfycbwsHYFTofcBzDhc0c_uKLRPCwZfWZh5U9H7mvN8kGsTvimeClSIXWAoN4MWOuh8wanc/exec";
 
 /**
  * Función que Google llama después del login exitoso.
